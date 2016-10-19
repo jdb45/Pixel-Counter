@@ -34,19 +34,22 @@
             // pixelsLabel
             // 
             this.pixelsLabel.AutoSize = true;
-            this.pixelsLabel.Location = new System.Drawing.Point(13, 13);
+            this.pixelsLabel.Location = new System.Drawing.Point(214, 86);
+            this.pixelsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.pixelsLabel.Name = "pixelsLabel";
-            this.pixelsLabel.Size = new System.Drawing.Size(96, 13);
+            this.pixelsLabel.Size = new System.Drawing.Size(138, 20);
             this.pixelsLabel.TabIndex = 0;
             this.pixelsLabel.Text = "Pixels in Window =";
+            this.pixelsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(421, 142);
+            this.ClientSize = new System.Drawing.Size(632, 218);
             this.Controls.Add(this.pixelsLabel);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Pixel Counter";
             this.Load += new System.EventHandler(this.Form1_Load);
