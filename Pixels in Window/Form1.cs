@@ -23,6 +23,11 @@ namespace Pixels_in_Window
             pixelsLabel.Text = "This windows contains " + pixels + " pixels ";
 
         }
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            int pixels = getPixels();
+            pixelsLabel.Text = "After resizing, this windows contains " + pixels + " pixels";
+        }
         private int getPixels()
         {
             int height = this.Size.Height;
